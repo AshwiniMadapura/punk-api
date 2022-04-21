@@ -1,13 +1,14 @@
 import React from "react";
-import Employee from "./components/Employee/employee";
-import Nav from "./components/Employee/NavBar/Nav";
+import Main from "./components/Main/Main";
+import Nav from "./components/NavBar/Nav";
+import beers from "./data/beers";
 
 const App = () => {
+  const filteredbeer = beers.filter(beer => beer.name).slice(0, 9);
   return (
     <div>
-      <p>Your cleaned App component</p>
-      <Employee/>
       <Nav/>
+      <Main beerArray={filteredbeer}/>
     </div>
   );
 };
