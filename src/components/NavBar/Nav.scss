@@ -1,11 +1,21 @@
 .nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 50px;
-    color: black;
-  
-    // &__item {
-    //   height: 30px;
-    // }
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  color: black; 
+}
+
+.search-box__input{
+margin: 20px 0;
+  padding: 10px;
+  font-size: 18px;
+  border: 5px gray solid;
+  border-radius: 15px;
+  color: black;
+}
+.filter{
+font-size: 18px;
+border: 3px gray solid;
+border-radius: 15px;
+}

@@ -1,12 +1,25 @@
 import React from 'react';
 import "./nav.css";
+import logo from "../../assests/images/logo.png"
+import SearchBox from '../SearchBox/SearchBox';
 
-const Nav = () => {
+
+const Nav = ({searchTerm, handleInput,filterSearch,filterSearchChange}) => {
+
   return (
     <nav className='nav'>
-      <h2>Logo</h2>
-      <button>Search</button>
-      <button>Filters</button>
+       <img src={logo} className="logo" alt=""  />
+       
+      <SearchBox 
+      // label={"search Item"} 
+      searchTerm={searchTerm}
+       handleInput={handleInput}
+       filterSearch={filterSearch}
+       filterSearchChange={filterSearchChange}
+       
+       />
+      
+      
     </nav>
   )
 }
