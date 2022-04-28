@@ -4,6 +4,7 @@
     align-items: center;
     padding: 0 50px;
     color: black; 
+    background-color: #090a0a;
   }
 
 .search-box__input{
@@ -20,5 +21,6 @@
   border-radius: 15px;
 }
 .logo{
+  margin-top: 10px;
   height: 100px;
 }

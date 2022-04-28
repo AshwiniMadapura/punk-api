@@ -2,7 +2,7 @@ import React from 'react'
 import Card from '../Card/Card';
 import CardInfo from '../CardInfo/CardInfo';
 import "./CardList.css"
-import {BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 const CardList = ({beerArr}) => {
     // const filteredbeer = beers.filter(beer => beer.name).slice(0, 9);
@@ -12,7 +12,7 @@ const CardList = ({beerArr}) => {
     {/* <div className="card-container">{beerListJSX} */}
     {/* <Card beerArray={filteredbeer} beerDetails="Know more" /> */}
     {/* </div> */}
-    <Router>
+    
     <Routes>
     <Route
     path='/'
@@ -24,7 +24,7 @@ const CardList = ({beerArr}) => {
     />
     
     </Routes>
-    </Router>
+    
     </>
   )
 }

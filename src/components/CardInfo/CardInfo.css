@@ -8,12 +8,13 @@
 }
 .image__section{
     display: block;
-    width: auto;
+    width: 200px;
     height: 500px;
     margin: 30px 20px;
     margin-left: auto;
     flex: auto;
     flex-shrink: 0;
+    background-color: #d4d6bb;
 }
 .back_button{
     font-size: 20px;
@@ -30,4 +31,9 @@
   cursor: pointer;
   border-radius: 12px;
     
+}
+.details{
+    color: white;
+    margin-left: 40px;
+    margin-top: 20px;
 }

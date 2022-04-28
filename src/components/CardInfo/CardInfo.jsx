@@ -17,8 +17,8 @@ const CardInfo = ({ beerArray }) => {
                   <div >
                     <img className='image__section' src={list.image_url} alt="" />
                   </div>
-                  <div>
-                  <h2>Name: {list.name}</h2>
+                  <div className='details'>
+                  <h2 >Name: {list.name}</h2>
                   <h4>{list.tagline}</h4>
                   <h4>First brewed on:{list.first_brewed}</h4>
                   <h4>ID: {list.id}</h4>
