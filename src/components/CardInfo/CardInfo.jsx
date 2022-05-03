@@ -6,16 +6,16 @@ const CardInfo = ({ beerArray }) => {
   const { name } = useParams();
 
   return (
-    <div className="full-detail">
+    <div>
       <div className="explore-container">
         {beerArray
           .filter((list) => list.name === name)
           .map((list) => (
-            <div className="full-card" key={list.id}>
+            <div className="cardInfo" key={list.id}>
               <div>
-                <img className="image__section" src={list.image_url} alt="" />
+                <img className="cardInfo__image-section" src={list.image_url} alt="" />
               </div>
-              <div className="details">
+              <div className="cardInfo__details">
                 <h1>{list.name}</h1>
                 <h4>{list.tagline}</h4>
                 <br />

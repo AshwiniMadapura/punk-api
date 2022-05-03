@@ -5,7 +5,7 @@
   margin-left: 15%;
   text-decoration: none;
 }
-.beer-image-card{
+.beer__image-card{
   /* border: 2px solid rgb(33, 35, 122); */
   background-color: #d4d6bb;
   width: 300px;
@@ -13,7 +13,7 @@
   /* margin-top: 10px; */
  
 }
-.abv{
+.beer__abv{
   margin-left: 15%;
   font-size: 15px;
 }

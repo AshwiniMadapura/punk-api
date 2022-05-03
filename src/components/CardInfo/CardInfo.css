@@ -2,11 +2,11 @@
     font-size: 20px;
     font-weight: 500;
 }
-.full-card{
+.cardInfo{
     display: flex;
     justify-content: space-around;
 }
-.image__section{
+.cardInfo__image-section{
     display: block;
     width: 150px;
     height: 380px;
@@ -32,7 +32,7 @@
   border-radius: 12px;
     
 }
-.details{
+.cardInfo__details{
     color: white;
     margin-left: 40px;
     margin-top: 20px;

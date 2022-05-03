@@ -6,7 +6,7 @@ const Card = ({ beerArray }) => {
   return (
     <>
       {beerArray.map((list) => (
-        <div key={list.id} className="beer-image-card">
+        <div key={list.id} className="beer__image-card">
           <img src={list.image_url} className="album-tiles__img" alt="" />
           <h3>
             {" "}
@@ -14,7 +14,7 @@ const Card = ({ beerArray }) => {
               {list.name}
             </Link>
           </h3>
-          <h4 className="abv">ABV: {list.abv}%</h4>
+          <h4 className="beer__abv">ABV: {list.abv}%</h4>
         </div>
       ))}
     </>
