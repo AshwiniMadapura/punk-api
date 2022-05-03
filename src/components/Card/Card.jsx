@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './Card.css'
 
-const Card = ({ beerArray,beerDetails }) => {
+const Card = ({ beerArray}) => {
   return (
     <>
       { beerArray.map(list => (

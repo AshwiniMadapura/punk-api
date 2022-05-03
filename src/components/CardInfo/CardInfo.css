@@ -8,10 +8,10 @@
 }
 .image__section{
     display: block;
-    width: 200px;
-    height: 500px;
+    width: 150px;
+    height: 380px;
     margin: 30px 20px;
-    margin-left: auto;
+    margin-left: 20px;
     flex: auto;
     flex-shrink: 0;
     background-color: #d4d6bb;

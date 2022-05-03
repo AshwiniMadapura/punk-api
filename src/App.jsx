@@ -40,10 +40,6 @@ const App = () => {
 
   const searchByName = (name) => {
     return defaultBeers.filter( beer => {
-      // if( filterSearch ) {
-      //   return beer.name.toLowerCase().includes( name.toLowerCase().trim() );
-      // }
-      // return beer.name.toLowerCase() == name.toLowerCase().trim();
       return beer.name.toLowerCase().includes(name)
     })
   }
