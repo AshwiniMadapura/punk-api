@@ -1,27 +1,22 @@
-import React from 'react';
+import React from "react";
 import "./nav.css";
-import logo from "../../assests/images/logo.png"
-import SearchBox from '../SearchBox/SearchBox';
+import logo from "../../assests/images/logo.png";
+import SearchBox from "../SearchBox/SearchBox";
 
-
-const Nav = ({searchTerm, handleInput,filterSearch,filterSearchChange}) => {
-
+const Nav = ({ searchTerm, handleInput, filterSearch, filterSearchChange }) => {
   return (
-    <nav className='nav'>
-       <img src={logo} className="logo" alt=""  />
-       
-      <SearchBox 
-      // label={"search Item"} 
-      searchTerm={searchTerm}
-       handleInput={handleInput}
-       filterSearch={filterSearch}
-       filterSearchChange={filterSearchChange}
-       
-       />
-      
-      
-    </nav>
-  )
-}
+    <nav className="nav">
+      <img src={logo} className="logo" alt="" />
 
-export default Nav
+      <SearchBox
+        // label={"search Item"}
+        searchTerm={searchTerm}
+        handleInput={handleInput}
+        filterSearch={filterSearch}
+        filterSearchChange={filterSearchChange}
+      />
+    </nav>
+  );
+};
+
+export default Nav;
